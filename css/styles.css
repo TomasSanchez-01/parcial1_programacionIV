@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;   
+}
+:root{
+    --color-primario: #483D8B;
+    --color-gris-oscuro: #dddddd;
+    --color-gris-claro: #fbfbfb;
+    --color-secundario: #f0eefb;
+}
+header p{
+    font-size: 30px;
+    text-align: center;
+}
+footer p{
+    margin-top: 80px;
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    padding: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#menu-interaccion{
+    display: flex;
+    justify-content: space-between;
+}
+.inputs {
+    padding: 15px;
+    font-size: 20px;
+}
+
+#buscador{
+    width: 35vw;
+    height: 40px; 
+    border: 1px solid var(--color-gris-oscuro);
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.botones button{
+    padding: 15px;
+    font-size: 15px;
+    background-color: var(--color-gris-claro);
+    border: 2px solid var(--color-primario);
+    color: #483D8B;
+    font-weight:800;
+}
+
+
+.botones{
+    margin-left: 15px;
+}
+
+hr{
+    margin: 0px 15px;
+    border: 1px solid var(--color-gris-oscuro);
+}
+
+#tabla-usuarios{
+    font-size:20px;
+    width: 100vw;
+    text-align: left;
+    font-weight: 100;
+    border-collapse: collapse;
+    margin: 40px 10px;
+
+}
+#tabla-usuarios th{
+    padding: 10px;
+    border: 1px solid var(--color-gris-oscuro);
+}
+#tabla-usuarios td{
+    padding: 10px;
+    border: 1px solid var(--color-gris-oscuro);
+}
+#tabla-usuarios tr:hover{
+    background-color: var(--color-secundario);
+}
+
+.img-usuario{
+    width: 50px;
+}
+
+.nombre-usuario{
+    color: var(--color-primario);
+    font-weight: 700;
+}
+.mensaje-usuarios{
+    font-size: 40px;
+    margin-top: 60px;
+    text-align: center;
+
+}
+.impar-fila{
+    background-color: var(--color-gris-claro);
+}
